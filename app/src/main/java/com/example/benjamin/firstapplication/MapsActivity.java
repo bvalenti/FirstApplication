@@ -193,7 +193,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void run() {
                 Thread.currentThread().setPriority(Thread.MIN_PRIORITY);
                 handler.obtainMessage(0).sendToTarget();
-
+//this is a comment
             }
         },30000,60000);
     }
